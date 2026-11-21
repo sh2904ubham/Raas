@@ -13,18 +13,18 @@ export default function Hero() {
           <p className="hero-lede">Find your sound. Follow your rhythm.<br className="desktop-break" /> Make music your own.</p>
           <div className="hero-actions">
             <a className="button button-gold" href="#classes">Explore classes <ArrowRight size={17} /></a>
-            <a className="hero-watch-link" href="#about"><span className="play-orb"><Music2 size={17} /></span> Discover RAAS</a>
+            <a className="hero-watch-link" href="#about"><span className="play-orb"><Music2 size={17} /></span> Discover Raas</a>
           </div>
           <div className="hero-note"><Sparkles size={15} /> Learn. Play. Grow.</div>
         </div>
         <div className="hero-art-wrap">
           <div className="hero-art-glow" />
           <MediaFrame
-            file="banner.png"
-            alt="RAAS Music Academy promotional banner"
+            file="raasbanner.jpeg"
+            alt="Raas Music Academy promotional banner"
             className="hero-art"
             imageClassName="hero-banner-image"
-            placeholder="Your RAAS story starts here"
+            placeholder="Your Raas story starts here"
           />
           <div className="hero-art-tag"><span className="tag-dot" /> Music lives here</div>
           <span className="hero-art-spark hero-art-spark-one">✦</span>

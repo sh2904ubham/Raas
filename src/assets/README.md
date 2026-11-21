@@ -1,13 +1,12 @@
-# RAAS brand assets
+# Raas brand assets
 
-The original promotional and academy images were not included in the project workspace.
-Add the supplied, unmodified files here using these names:
+The supplied original images are used directly by the homepage:
 
-- `logo.png` (optional; the current wordmark remains text until the original logo is supplied)
-- `banner.png`
-- `academy-interior.png`
-- `guitar-poster.png`
-- `music-quote.png`
+- `raaslogo.jpeg` — header and footer logo
+- `raasbanner.jpeg` — hero and gallery banner
+- `WhatsApp Image 2026-11-20 at 7.51.03 PM(1).jpeg` — academy interior
+- `WhatsApp Image 2026-11-20 at 7.51.03 PM(2).jpeg` — Hindi music quote poster
+- `WhatsApp Image 2026-11-20 at 7.51.04 PM.jpeg` — guitar classes poster
 
-The homepage automatically uses matching files when present and shows a designed
-image placeholder otherwise. Do not replace these with stock images.
+Keep the filenames unchanged, or update the matching references in the components
+if you rename the images.

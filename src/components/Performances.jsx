@@ -17,9 +17,9 @@ export default function Performances() {
             <SectionHeading
               eyebrow="Beyond the classroom"
               title={<>Made to be<br /><span className="heading-accent">heard.</span></>}
-              description="Music brings people together. There’s always something to learn, share and enjoy at RAAS."
+              description="Music brings people together. There’s always something to learn, share and enjoy at Raas."
             />
-            <WhatsAppLink className="text-link performance-link" icon={false}>Ask about RAAS <ArrowUpRight size={16} /></WhatsAppLink>
+            <WhatsAppLink className="text-link performance-link" icon={false}>Ask about Raas <ArrowUpRight size={16} /></WhatsAppLink>
           </div>
           <div className="moments-list">
             {moments.map(({ number, title, detail, icon: Icon, tone }) => (

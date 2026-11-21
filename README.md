@@ -1,6 +1,6 @@
-# RAAS Music Academy & Entertainment
+# Raas Music Academy & Entertainment
 
-Responsive React + Vite marketing homepage for RAAS in Varanasi, styled with Tailwind CSS and custom brand styles.
+Responsive React + Vite marketing homepage for Raas in Varanasi, styled with Tailwind CSS and custom brand styles.
 
 ## Run locally
 
@@ -20,7 +20,7 @@ The production output is generated in `dist/` and can be deployed to Netlify. `n
 
 ## Brand images
 
-Place the original, unmodified RAAS files in `src/assets/` with the names documented in [src/assets/README.md](./src/assets/README.md). Missing images are represented by branded placeholders rather than unrelated stock imagery.
+The supplied Raas logo, banner, academy interior, guitar poster and Hindi quote poster are used directly from `src/assets/`. See [src/assets/README.md](./src/assets/README.md) for the image-to-section mapping.
 
 ## Enquiries and contact details
 

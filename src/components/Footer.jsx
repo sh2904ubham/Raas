@@ -1,4 +1,5 @@
 import { ArrowUpRight } from 'lucide-react';
+import SocialLinks from './SocialLinks.jsx';
 import WhatsAppLink from './WhatsAppLink.jsx';
 
 const suppliedImages = import.meta.glob('../assets/*', {
@@ -7,7 +8,7 @@ const suppliedImages = import.meta.glob('../assets/*', {
   import: 'default',
 });
 
-const logo = suppliedImages['../assets/logo.png'];
+const logo = suppliedImages['../assets/raaslogo.jpeg'];
 
 const footerLinks = [
   ['About', 'about'],
@@ -23,15 +24,16 @@ export default function Footer() {
       <div className="page-container">
         <div className="footer-main">
           <div className="footer-brand-block">
-            <a className="brand footer-brand" href="#home" aria-label="RAAS Music Academy home">
-              {logo ? <img className="brand-logo" src={logo} alt="RAAS" /> : <span className="brand-word">RAAS</span>}
+            <a className="brand footer-brand" href="#home" aria-label="Raas Music Academy home">
+              {logo ? <img className="brand-logo" src={logo} alt="Raas" /> : <span className="brand-word">Raas</span>}
               <span className="brand-divider" />
               <span className="brand-name">Music Academy <span>&amp; Entertainment</span></span>
             </a>
             <p>A place to learn, play and grow through music.</p>
+            <SocialLinks variant="footer" />
           </div>
           <div className="footer-nav-block">
-            <span className="footer-label">Explore RAAS</span>
+            <span className="footer-label">Explore Raas</span>
             <nav className="footer-links" aria-label="Footer navigation">
               {footerLinks.map(([label, id]) => <a href={`#${id}`} key={id}>{label}</a>)}
             </nav>
@@ -42,7 +44,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} RAAS Music Academy &amp; Entertainment</span>
+          <span>© {new Date().getFullYear()} Raas Music Academy &amp; Entertainment</span>
           <span className="footer-location">Made with music in Varanasi, India <span>✦</span></span>
           <a href="#home" className="back-to-top">Back to top ↑</a>
         </div>

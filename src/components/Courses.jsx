@@ -1,4 +1,4 @@
-import { ArrowUpRight, Guitar, Mic2, Piano, Waves } from 'lucide-react';
+import { ArrowUpRight, AudioLines, Guitar, Mic2, Waves } from 'lucide-react';
 import SectionHeading from './SectionHeading.jsx';
 
 const courses = [
@@ -11,26 +11,26 @@ const courses = [
     tag: 'STRINGS',
   },
   {
-    title: 'Vocal / Singing',
-    suffix: 'Classes',
-    description: 'Explore your voice, grow your confidence and make every note your own.',
+    title: 'Vocal',
+    suffix: 'Training',
+    description: 'Develop your voice, build confidence and express yourself through song.',
     icon: Mic2,
     tone: 'cyan',
     tag: 'VOICE',
   },
   {
     title: 'Harmonium',
-    suffix: 'Classes',
+    suffix: '',
     description: 'Discover the expressive sound of harmonium, one melody at a time.',
     icon: Waves,
     tone: 'violet',
     tag: 'MELODY',
   },
   {
-    title: 'Piano',
-    suffix: 'Classes',
-    description: 'Get to know the keys and start shaping melodies with both hands.',
-    icon: Piano,
+    title: 'Studio Recording',
+    suffix: 'Space',
+    description: 'Bring your music into the studio and capture your sound.',
+    icon: AudioLines,
     tone: 'rose',
     tag: 'KEYS',
   },

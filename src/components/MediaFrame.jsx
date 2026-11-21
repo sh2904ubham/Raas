@@ -10,7 +10,7 @@ export default function MediaFrame({
   file,
   alt,
   className = '',
-  placeholder = 'RAAS image',
+  placeholder = 'Raas image',
   icon = Image,
   imageClassName = '',
 }) {

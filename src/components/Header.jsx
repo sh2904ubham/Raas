@@ -8,7 +8,7 @@ const suppliedImages = import.meta.glob('../assets/*', {
   import: 'default',
 });
 
-const logo = suppliedImages['../assets/logo.png'];
+const logo = suppliedImages['../assets/raaslogo.jpeg'];
 
 const navigation = [
   ['Home', 'home'],
@@ -27,8 +27,8 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="header-inner">
-        <a className="brand" href="#home" onClick={closeMenu} aria-label="RAAS Music Academy home">
-          {logo ? <img className="brand-logo" src={logo} alt="RAAS" /> : <span className="brand-word">RAAS</span>}
+        <a className="brand" href="#home" onClick={closeMenu} aria-label="Raas Music Academy home">
+          {logo ? <img className="brand-logo" src={logo} alt="Raas" /> : <span className="brand-word">Raas</span>}
           <span className="brand-divider" />
           <span className="brand-name">Music Academy <span>&amp; Entertainment</span></span>
         </a>

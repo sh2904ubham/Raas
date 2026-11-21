@@ -3,10 +3,10 @@ import MediaFrame from './MediaFrame.jsx';
 import SectionHeading from './SectionHeading.jsx';
 
 const galleryItems = [
-  { file: 'guitar-poster.png', alt: 'RAAS guitar classes poster', label: 'Find your rhythm', category: 'Guitar classes', icon: Guitar, className: 'gallery-guitar' },
-  { file: 'music-quote.png', alt: 'RAAS Hindi music motivational quote poster', label: 'A little inspiration', category: 'Words & music', icon: Quote, className: 'gallery-quote' },
-  { file: 'banner.png', alt: 'RAAS Music Academy promotional banner', label: 'This is RAAS', category: 'Academy', icon: Sparkles, className: 'gallery-banner' },
-  { file: 'academy-interior.png', alt: 'RAAS Music Academy interior', label: 'A space to create', category: 'Inside RAAS', icon: Music2, className: 'gallery-interior' },
+  { file: 'WhatsApp Image 2026-11-20 at 7.51.04 PM.jpeg', alt: 'Raas guitar classes poster', label: 'Find your rhythm', category: 'Guitar classes', icon: Guitar, className: 'gallery-guitar' },
+  { file: 'WhatsApp Image 2026-11-20 at 7.51.03 PM(2).jpeg', alt: 'Raas Hindi music motivational quote poster', label: 'A little inspiration', category: 'Words & music', icon: Quote, className: 'gallery-quote' },
+  { file: 'raasbanner.jpeg', alt: 'Raas Music Academy promotional banner', label: 'This is Raas', category: 'Academy', icon: Sparkles, className: 'gallery-banner' },
+  { file: 'WhatsApp Image 2026-11-20 at 7.51.03 PM(1).jpeg', alt: 'Raas Music Academy interior', label: 'A space to create', category: 'Inside Raas', icon: Music2, className: 'gallery-interior' },
 ];
 
 export default function Gallery() {
@@ -15,7 +15,7 @@ export default function Gallery() {
       <div className="page-container">
         <div className="gallery-heading-row">
           <SectionHeading
-            eyebrow="A glimpse of RAAS"
+            eyebrow="A glimpse of Raas"
             title={<>Little moments.<br /><span className="heading-accent">Big feeling.</span></>}
             description="A look at the music, the moments and the space we share."
           />
@@ -25,7 +25,7 @@ export default function Gallery() {
           {galleryItems.map(({ file, alt, label, category, icon, className }) => {
             const Icon = icon;
             return (
-              <a className={`gallery-tile ${className}`} key={file + category} href="#contact" aria-label={`${category}: ${label}. Contact RAAS to learn more.`}>
+              <a className={`gallery-tile ${className}`} key={file + category} href="#contact"               aria-label={`${category}: ${label}. Contact Raas to learn more.`}>
                 <MediaFrame
                   file={file}
                   alt={alt}

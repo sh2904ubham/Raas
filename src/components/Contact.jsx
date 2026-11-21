@@ -1,5 +1,6 @@
-import { ArrowUpRight, Instagram, MapPin, Music2, Phone, Youtube } from 'lucide-react';
+import { ArrowUpRight, MapPin, Phone } from 'lucide-react';
 import SectionHeading from './SectionHeading.jsx';
+import SocialLinks from './SocialLinks.jsx';
 import WhatsAppLink from './WhatsAppLink.jsx';
 
 export default function Contact() {
@@ -23,9 +24,9 @@ export default function Contact() {
             </div>
             <div className="contact-detail">
               <span className="contact-detail-icon"><Phone size={18} /></span>
-              <div><small>Call or WhatsApp</small><span className="placeholder-contact">Contact number coming soon</span></div>
+              <div><small>Call or WhatsApp</small><WhatsAppLink className="placeholder-contact" icon={false}>+91 90156 27005</WhatsAppLink></div>
             </div>
-            <div className="contact-map-placeholder" aria-label="Google Maps integration placeholder for the RAAS academy location">
+            <div className="contact-map-placeholder" aria-label="Google Maps integration placeholder for the Raas academy location">
               <span className="map-grid" />
               <span className="map-pin"><MapPin size={20} /></span>
               <span className="map-label">Academy location in Varanasi</span>
@@ -33,13 +34,9 @@ export default function Contact() {
             </div>
             <div className="contact-social-row">
               <span>Follow the music</span>
-              <div className="social-links">
-                <span className="social-link social-unavailable" aria-label="Instagram link coming soon" title="Instagram link coming soon"><Instagram size={16} /></span>
-                <span className="social-link social-unavailable" aria-label="YouTube link coming soon" title="YouTube link coming soon"><Youtube size={17} /></span>
-                <span className="social-link social-unavailable" aria-label="Social profile link coming soon" title="Social profile link coming soon"><Music2 size={16} /></span>
-              </div>
+              <SocialLinks />
             </div>
-            <p className="contact-social-note">Social links coming soon <ArrowUpRight size={13} /></p>
+            <p className="contact-social-note">Follow Raas on Facebook &amp; Instagram <ArrowUpRight size={13} /></p>
           </div>
         </div>
         <p className="contact-bottom-note"><span className="contact-bottom-line" />Good things begin with a hello.</p>
