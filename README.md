@@ -9,14 +9,14 @@ npm install
 npm run dev
 ```
 
-Build the static site for deployment:
+Build the static site:
 
 ```sh
 npm run build
 npm run preview
 ```
 
-The production output is generated in `dist/` and can be deployed to Netlify. `netlify.toml` provides the SPA fallback so direct routes and refreshes serve the homepage.
+The production output is generated in `dist/`. Vercel automatically detects the Vite app and uses this output directory. `vercel.json` configures HTTP security headers, including a CSP that permits the Google Fonts stylesheet and font files used by the page. Vercel provides HTTPS for deployed domains; confirm HTTPS and the headers on the production domain after deployment.
 
 ## Brand images
 
@@ -24,4 +24,4 @@ The supplied Raas logo, banner, academy interior, guitar poster and Hindi quote 
 
 ## Enquiries and contact details
 
-WhatsApp enquiry links open WhatsApp with a pre-filled message and let the visitor choose a contact. No phone number, exact location, map pin, or social media profiles are assumed. Add verified academy details when available.
+WhatsApp enquiry links open the academy chat with a pre-filled message. The page shows the academy's city but does not publish an exact street address or map pin.
