@@ -195,7 +195,8 @@ button { color: inherit; }
 .contact-detail strong, .contact-detail a { color: #e4e9ec; font-size: 11px; font-weight: 600; }
 .contact-detail .placeholder-contact { color: #b1bdc8; cursor: pointer; }
 .contact-detail .placeholder-contact:hover { color: var(--gold); }
-.contact-map-placeholder { position: relative; overflow: hidden; height: 108px; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 5px; border: 1px solid rgba(255,255,255,.08); border-radius: 7px; background: #0b1825; }
+.contact-map-placeholder { position: relative; overflow: hidden; height: 108px; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 5px; border: 1px solid rgba(255,255,255,.08); border-radius: 7px; background: #0b1825; cursor: pointer; transition: border-color .2s ease, background .2s ease; }
+.contact-map-placeholder:hover { border-color: rgba(244,201,93,.35); background: #0d1b29; }
 .map-grid { position: absolute; inset: 0; opacity: .35; background-image: linear-gradient(rgba(86,217,220,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(86,217,220,.1) 1px, transparent 1px); background-size: 27px 27px; mask-image: radial-gradient(ellipse at center, black 10%, transparent 80%); }
 .map-pin { position: relative; z-index: 1; color: var(--gold); }
 .map-label, .map-caption { position: relative; z-index: 1; }

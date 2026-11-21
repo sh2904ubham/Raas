@@ -24,4 +24,4 @@ The supplied Raas logo, banner, academy interior, guitar poster and Hindi quote 
 
 ## Enquiries and contact details
 
-WhatsApp enquiry links open the academy chat with a pre-filled message. The page shows the academy's city but does not publish an exact street address or map pin.
+WhatsApp enquiry links open the academy chat with a pre-filled message. The location card opens the Google Maps coordinates provided for the academy; no street address is published.

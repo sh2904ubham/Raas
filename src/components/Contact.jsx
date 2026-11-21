@@ -26,12 +26,18 @@ export default function Contact() {
               <span className="contact-detail-icon"><Phone size={18} /></span>
               <div><small>Call or WhatsApp</small><WhatsAppLink className="placeholder-contact" icon={false}>+91 90156 27005</WhatsAppLink></div>
             </div>
-            <div className="contact-map-placeholder" aria-label="Google Maps integration placeholder for the Raas academy location">
+            <a
+              className="contact-map-placeholder"
+              href="https://maps.google.com/maps?q=25.367918%2C83.006182&z=17&hl=en"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open the Raas location in Google Maps"
+            >
               <span className="map-grid" />
               <span className="map-pin"><MapPin size={20} /></span>
-              <span className="map-label">Academy location in Varanasi</span>
-              <span className="map-caption">Map location to be added</span>
-            </div>
+              <span className="map-label">Raas location in Varanasi</span>
+              <span className="map-caption">Open in Google Maps</span>
+            </a>
             <div className="contact-social-row">
               <span>Follow the music</span>
               <SocialLinks />
